@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    background-color: #1F2937;
+    color: white;
+    height: 60vh;
+}
+ul {
+    display: flex;
+    gap: 16px;
+}
+li {
+    list-style: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+}
+header {
+    font-size: 24px;
+    font-weight: 800;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.imghead {
+    display: block;
+    width: 500px;
+    height: auto;
+}
+.headtext {
+    width: 500px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+button {
+    padding: 8px;
+    width: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services_img {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.information {
+    max-width: 300px;
+    text-align: center;
+}
+.quote {
+    background-color: #e5e7eb;
+    height: 40vh;
+}
+.quote_text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 40vw;
+    margin: 10vh auto;
+}
+.newsletter {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.form {
+    width: 60vw;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup {
+    height: 40px;   
+    border: 1px solid white;
+}
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
